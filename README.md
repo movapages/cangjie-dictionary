@@ -4,9 +4,8 @@
 ![CangJie Demo](CangJieDictionary.gif)
 
 >Some *code->zi* results looks *empty*, but in fact the entries exist, however
-> the glyphs on the system (browser may use system fonts only) *don't know* about
-> such languages like Vietnamese, Japanese or Korean (no support on the system, 
-> Traditional and Simplified Chinese only).
+> the Vietnamese, Japanese or Korean glyphs are not known to the system
+(i.e. no support on the system, it's Traditional and Simplified Chinese installed only).
 
 ### Getting Started with Create React App
 
