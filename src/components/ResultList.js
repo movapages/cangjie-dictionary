@@ -20,7 +20,6 @@ const ResultList = (props) => {
     console.log('curList: ', curList);
   }
   return <ul>{curList}</ul>;
-  // return curList;
 };
 
 export default ResultList;
