@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import SearchHistory from "./components/SearchHistory";
+import SearchComponent from "./components/SearchComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{width: "90%", margin: "auto"}}>
+      <h2 style={{color: "red", paddingLeft: "5px", fontFamily: "kaiti"}}>倉頡辭典</h2>
+      <div
+        style={{display: "grid", minHeight: "max-content",
+        border: "1px dotted lightgray",
+        "gridTemplateColumns": "1fr 2fr"}}>
+        <SearchComponent/>
+        <SearchHistory/>
+      </div>
     </div>
   );
 }
