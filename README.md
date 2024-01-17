@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+## CangJie Dictionary SPA (ReactJS+RxJS)
+
+### Demo
+![CangJie Demo](CangJieDictionary.gif)
+
+>Some *code->zi* results looks *empty*, but in fact the entries exist, however
+> the glyphs on the system (browser may use system fonts only) *don't know* about
+> such languages like Vietnamese, Japanese or Korean (no support on the system, 
+> Traditional and Simplified Chinese only).
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
