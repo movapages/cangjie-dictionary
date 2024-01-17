@@ -1,4 +1,7 @@
-## CangJie Dictionary SPA (ReactJS+RxJS)
+## 倉頡辭典 [CāngJié cídiǎn] CangJie Dictionary
+
+The SPA (ReactJS+RxJS) is designed for lookup hieroglyphs and touch-typing codes used
+in CJK CangJie systems.
 
 ### Demo
 ![CangJie Demo](CangJieDictionary.gif)
