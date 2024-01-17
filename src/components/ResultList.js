@@ -6,7 +6,6 @@ const ResultList = (props) => {
     curList = [];
     for (let obj of [...resultList].splice(0,25)) {
       Object.keys(obj).forEach((key) => {
-        // console.log('KEY: ', key);
         const curKey = key.toUpperCase();
         const curValue = obj[key].join(',').toUpperCase();
         curList.push(<li style={{fontSize: "20px", fontFamily: "kaiti"}} key={curKey}>
